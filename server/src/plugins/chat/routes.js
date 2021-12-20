@@ -1,20 +1,13 @@
 const handlers = require("./handlers");
 const validators = require("./validators");
 
+
+
 module.exports = [
   {
     method: "POST",
-    path: "/signup",
-    handler: handlers.signup,
-    options: {
-      auth: false,
-      validate: {},
-    },
-  },
-  {
-    method: "POST",
-    path: "/signin",
-    handler: handlers.signin,
+    path: "/chat/create",
+    handler: handlers.add,
     options: {
       auth: false,
       validate: {},
@@ -22,8 +15,8 @@ module.exports = [
   },
   {
     method: "GET",
-    path: "/userinfo",
-    handler: handlers.getByToken,
+    path: "/chat/{userId}",
+    handler: handlers.getById,
     options: {
       auth: false,
       validate: {},
@@ -31,17 +24,8 @@ module.exports = [
   },
   {
     method: "GET",
-    path: "/allUsers",
-    handler: handlers.getAll,
-    options: {
-      auth: false,
-      validate: {},
-    },
-  },
-  {
-    method: "GET",
-    path: "/deleteAllUsers",
-    handler: handlers.deleteAll,
+    path: "/chat/{firstUserId}/{secondUserId}",
+    handler: handlers.getByTwoId,
     options: {
       auth: false,
       validate: {},
