@@ -11,6 +11,7 @@ export default function Rightbar({ user }) {
   const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   const [friends, setFriends] = useState([]);
   const { user: currentUser, dispatch } = useContext(AuthContext);
+ 
   const [followed, setFollowed] = useState(
     currentUser.followings.includes(user?.id)
   );
@@ -18,14 +19,15 @@ export default function Rightbar({ user }) {
   useEffect(() => {
     const getFriends = async () => {
       try {
-        const friendList = await axios.get("/user/friends/" + user._id);
-        setFriends(friendList.data);
+        const friendList = await axios.get("/user/friends/" + currentUser._id);
+
+        setFriends(friendList.data.data);
       } catch (err) {
         console.log(err);
       }
     };
     getFriends();
-  }, [user]);
+  }, [currentUser]);
 
   const handleClick = async () => {
     try {

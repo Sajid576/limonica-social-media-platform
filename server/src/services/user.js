@@ -26,7 +26,7 @@ module.exports = {
         const hash = String(document.password);
         const result = await bcrypt.compare(payload.password, hash);
         if (result) {
-          return { success: true, data: result };
+          return { success: true, data: document };
         } else {
           return { success: false, data: "Password is incorrect" };
         }

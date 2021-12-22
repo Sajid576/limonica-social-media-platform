@@ -4,6 +4,7 @@ import { loginCall } from "../../apiCalls";
 import { AuthContext } from "../../context/AuthContext";
 import { CircularProgress } from "@material-ui/core";
 import { useHistory } from "react-router";
+import { social_platform_name } from "../../lib/constants";
 
 export default function Login() {
   const history = useHistory();
@@ -23,9 +24,10 @@ export default function Login() {
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">Lamasocial</h3>
+          <h3 className="loginLogo">{social_platform_name}</h3>
           <span className="loginDesc">
-            Connect with friends and the world around you on Lamasocial.
+            `Connect with friends and the world around you on
+            {social_platform_name}.`
           </span>
         </div>
         <div className="loginRight">

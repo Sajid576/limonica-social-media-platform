@@ -2539,3 +2539,99 @@
   message: '',
   timestamp: '2021-12-21 18:31:54'
 }
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:21:47'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:21:47'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:26:07'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:26:07'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:26:35'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:26:35'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:53:07'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:53:07'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:53:33'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 11:53:33'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 14:28:32'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 14:28:32'
+}

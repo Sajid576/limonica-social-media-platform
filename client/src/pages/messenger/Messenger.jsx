@@ -49,7 +49,7 @@ export default function Messenger() {
     const getConversations = async () => {
       try {
         const res = await axios.get("/chat/" + user._id);
-        setConversations(res.data);
+        setConversations(res.data.data);
       } catch (err) {
         console.log(err);
       }
