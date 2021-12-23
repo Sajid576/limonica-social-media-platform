@@ -10,10 +10,34 @@ import {
   Event,
   School,
 } from "@material-ui/icons";
-import { Users } from "../../dummyData";
+// import { Users } from "../../dummyData";
+import People from "../peopleYouMayKnow/People";
 import CloseFriend from "../closeFriend/CloseFriend";
 
+import { useContext, useEffect, useState } from "react";
+import { AuthContext } from "../../context/AuthContext";
+import { getPeopleyouMayKnow } from "../../api/users";
+
+const Users = [];
+
 export default function Sidebar() {
+  const { user: currentUser } = useContext(AuthContext);
+  const [peoples, setPeoples] = useState([]);
+
+  const getPeoples = async () => {
+    try {
+      const peoples = await getPeopleyouMayKnow(currentUser);
+      console.log("sidebar.js:", peoples);
+      setPeoples(peoples);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  useEffect(() => {
+    getPeoples();
+  }, [currentUser]);
+
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -60,6 +84,12 @@ export default function Sidebar() {
         <ul className="sidebarFriendList">
           {Users.map((u) => (
             <CloseFriend key={u.id} user={u} />
+          ))}
+        </ul>
+        <h4 className="rightbarTitle">People You May Know </h4>
+        <ul className="sidebarFriendList">
+          {peoples.map((u) => (
+            <People key={u.id} user={u} />
           ))}
         </ul>
       </div>

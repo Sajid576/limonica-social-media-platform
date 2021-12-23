@@ -143,6 +143,7 @@ module.exports = {
         return { success: false, data: err };
       }
     } else {
+      console.log("Lol,you cant follow yourself");
       return { success: false, data: "you cant follow yourself" };
     }
   },

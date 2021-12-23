@@ -41,18 +41,18 @@ module.exports = {
     return success(result.data, "user info deleted successfully");
   },
   followById: async (request, h) => {
-    const { payload, params } = request;
+    const { payload } = request;
 
-    const result = await service.follow(payload, params);
+    const result = await service.follow(payload);
 
     if (!result.success) return error(result.data);
 
     return success(result.data, "user followed successfully");
   },
   unfollowById: async (request, h) => {
-    const { payload, params } = request;
+    const { payload } = request;
 
-    const result = await service.unfollow(payload, params);
+    const result = await service.unfollow(payload);
 
     if (!result.success) return error(result.data);
 

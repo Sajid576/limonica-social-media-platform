@@ -2635,3 +2635,195 @@
   message: '',
   timestamp: '2021-12-22 14:28:32'
 }
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-22 18:16:40'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-23 13:05:07'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-23 13:05:07'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-23 18:38:48'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 12:24:50'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 12:24:50'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:01:56'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:01:57'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:02:56'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:02:56'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:03:54'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:03:54'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:07:23'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:07:23'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:07:54'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:07:54'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:41:01'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-26 17:41:01'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-27 11:34:27'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-27 11:34:27'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-28 14:23:20'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-28 14:27:44'
+}
+{
+  service: 'my-chat-service',
+  tag: 'connect-db.js',
+  data: { message: 'Database connection established!' },
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-28 14:30:05'
+}
+{
+  service: 'my-chat-service',
+  tag: 'socket.js',
+  data: 'Socket Server Started at port: 8080',
+  level: 'info',
+  message: '',
+  timestamp: '2021-12-28 14:30:06'
+}
